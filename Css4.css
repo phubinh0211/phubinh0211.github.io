@@ -1,0 +1,88 @@
+#canhNhau{
+    display: inline-block;
+    display: flex;
+    margin-top: 40px;
+}
+.logo{
+    height: 50px;
+}
+nav img{
+    float: left;
+}
+nav{
+    display: flex;
+    
+    align-items: center;
+    background-color: white;
+}
+nav a{
+    display:inline-block;
+    padding:10px;
+    font-size:30px;
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+    
+    
+}
+nav a:hover{
+
+    text-decoration: underline;
+}
+#search{
+    background-image: url(./logoSearch.jpg);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position:left ;
+    padding-left: 25px;
+    margin-top: 10px;
+    margin-left: 780px;
+    width: 150px;
+    font-size: 20px;
+    border-radius: 12px;
+}
+#search:focus{
+    outline: none;
+}
+#ad{
+    text-align: center;
+}
+#hinhAnh{
+    display: inline-block;
+}
+#quangCao1{
+    margin-left: 160px;
+    width: 1000px;
+}
+.thongTin{
+    display: inline-block;
+    display: flex;
+}
+.sanPham{
+    float: left;
+}
+.giaTien{
+    margin-left: 120px;
+}
+.khung{
+    margin-left: 30px;
+}
+.products{
+    margin-left: 20px;
+}
+.productsItem{
+    display: inline-block;
+    display: flex;
+    flex-wrap: wrap;
+}
+.kichCo{
+    height: 415px;
+}
+.giaTien1{
+    margin-left: 200px;
+}
+#giaTien2{
+    margin-left: 90px;
+}
+#giaTien3{
+    margin-left: 220px;
+}
